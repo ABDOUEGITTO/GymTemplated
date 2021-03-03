@@ -1,0 +1,234 @@
+/* roboto font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif; 
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+.box-shadow{
+    box-shadow: 0 0 2px #252A34;
+}
+.bg-dark{
+    background-color: #252A34;
+    color: #ffffff;
+}
+.btn-dark{
+    background-color: #252A34;
+    color: #ffffff;
+}
+.bg-light{
+    background-color: #eaeaea;
+    color: #252A34;
+}
+.bg-primary{
+    background-color: aqua;
+    color: #ffffff;
+}
+.text-primary{
+    color: #ff2e63;
+}
+.text-center{
+    text-align: center;
+}
+.l-heading{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.m-heading{
+    font-size: 2rem;
+}
+.lead{
+    font-size: 1.6rem;
+}
+.py-1{
+    padding: 1.5rem 0;
+}
+.p-1{
+    padding: 1.5rem;
+}
+.btn{
+    background-color: aqua;
+    color: #ffffff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: #ff2e63;
+}
+/* section navbar*/
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+   position: sticky;
+    z-index: 1;
+}
+#navbar .logo img{
+    width: 80px;
+}
+#navbar ul {
+    list-style: none;
+    display: flex;
+}
+#navbar ul li a{
+    color: #ffffff;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+#navbar ul li a:hover{
+    background-color:aqua;
+    border-radius: 5px;
+}
+/*end of nav*/
+/*start of section show*/
+#showcase{
+   background-image: url(../img/showcase.jpg) ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+    height: 100vh;  
+    color: #ffffff;
+}
+
+#showcase .show-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+   background-color: rgba(0, 0, 0, 0.8);
+   padding: 1rem;
+}
+/*end of section show*/
+/*start  section about*/
+#about .about-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+#about .about-contact div ,
+#about .about-contact img{
+    flex: 1;
+}
+#about .about-contact img{
+    width: 50%;
+    margin-left: 1.5rem;
+    border: 3px solid #ffffff;
+}
+/*end  section about*/
+/*start  section cta*/
+#cta{
+    background-image: url(../img/cta.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+}
+#cta .cta-contact{
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0, 0, 0.6);
+    overflow: hidden;
+}
+#cta .cta-contact .container p {
+    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+}
+/*end  section cta*/
+/*start  section programs*/
+#programs{
+    color: #252A34;
+}
+#programs .boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#programs .boxes .box{
+    flex: 1;
+    padding: 1rem;
+}
+#programs .boxes .box img {
+    width: 70px;
+    background-color: aqua;
+    padding: 0.5rem;
+    border-radius: 100%;
+}
+/*end  section programs*/
+/*start  section Trainers*/
+#Trainers .Trainers-boxes{
+    display: flex;
+}
+#Trainers .Trainers-boxes .Trainer-box{
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 1rem;
+}
+#Trainers .Trainers-boxes .Trainer-box img{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#Trainers .Trainers-boxes .Trainer-box ul{
+    display: flex;
+    list-style: none;
+}
+#Trainers .Trainers-boxes .Trainer-box ul li a {
+    color: #252A34;
+    margin-right: 10px;
+}
+#Trainers .Trainers-boxes .Trainer-box ul li a:hover{
+    color: #ff2e63;
+}
+/*end  section Trainers*/
+/*start  section contact*/
+#contact{
+    display: flex;
+}
+#contact .contact-us,
+#contact #map{
+    flex: 1;
+}
+#contact .contact-us input,
+#contact .contact-us textarea{
+    width: 100%;
+    border: none;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    outline: none;
+}
+#contact .contact-us .form-1{
+    display: flex;
+}
+#contact .contact-us .form-1 input[type="text"]{
+    margin-right: 0.75rem;
+}
+#contact .contact-us .btn-dark{
+    background-color: #252A34;
+    color: #ffffff;}
+#contact .contact-us .btn-dark:hover{
+    background-color: #ff2e63;
+}  
+
+
+/*end  section contact*/
